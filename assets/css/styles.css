@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('path/to/cairo.woff2') format('woff2'), /* Modern Browsers */
+         url('path/to/cairo.woff') format('woff'), /* Modern Browsers */
+         url('path/to/cairo.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+body {
+    color: dimgrey;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 50px;
+}
+.card {
+    border: 3px solid black;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0.4rem 0.4rem black;
+    margin-bottom: 1.5rem;
+}
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+a.btn {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: white !important;
+    border: 2px solid black !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+a.btn:hover , button[type="submit"]:hover{
+    background-color: white !important;
+    color: black !important;
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select ,button[type="submit"]{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input[type="submit"],button[type="submit"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover ,button[type="submit"]:hover{
+    color: black;
+}
+select.form-select {
+    border: 2px solid black !important; 
+    font-size: 1.2rem; 
+}
+
